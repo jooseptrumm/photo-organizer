@@ -8,7 +8,7 @@ import {
 
 // A dummy reducer.
 
-const dummyReducer = (state, action) => {
+const dummyReducer = (state = null, action) => {
 
   return state;
 };

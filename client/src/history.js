@@ -1,9 +1,13 @@
-// This file holds the custom history file for the React Router.
+// This file holds the custom history file for the React router.
 
-// Import the createHistory function.
+// Import the createBrowserHistory function.
 
-import createHistory from "history/createBrowserHistory";
+import { createBrowserHistory } from 'history';
 
-// Export the history object created with the createHistory function.
+// Create a custom history object with the imported function.
 
-export default createHistory();
+const history = createBrowserHistory();
+
+// Export the history object
+
+export default history;

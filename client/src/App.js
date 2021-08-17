@@ -7,13 +7,19 @@ import {Router, Route} from "react-router-dom";
 
 import history from "./history";
 
+import Navbar from "./components/Navbar/Navbar";
+
 // Create the App component.
 
 function App() {
   return (
+    <div>
     <Router history={history}>
+      <Navbar/>
+  </Router>
+</div>
+);
 
-  </Router>);
 }
 
 // Export the App component.

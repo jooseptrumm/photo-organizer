@@ -1,0 +1,11 @@
+/* Styles for the button. */
+
+.button {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px;
+  display: inline-block;
+  float: right;
+  padding: 2rem 3rem;
+}

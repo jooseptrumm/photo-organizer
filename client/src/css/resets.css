@@ -1,0 +1,18 @@
+/* CSS rules reset. */
+
+/* Reset of margins and paddings. */
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+	margin: 0;
+  padding: 0;
+}
+
+/* Reset of measurement units: 1rem = 10px; element size = content + padding + border. */
+
+:root {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}

@@ -1,0 +1,6 @@
+body {
+  background-image: linear-gradient(white, rgba(112, 176, 115, 0.8)), url("../img/93.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}

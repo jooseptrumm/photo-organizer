@@ -1,0 +1,8 @@
+/* Global CSS variables. */
+
+:root {
+  --primary-color: #70B073;
+  --primary-color-light: #C0E4C2;
+  --primary-color-dark: #386F3A;
+  --accent-color: #B64AC6;
+}

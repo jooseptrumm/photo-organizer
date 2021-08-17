@@ -9,9 +9,14 @@ import {
   Provider
 } from "react-redux";
 
+// Import global CSS files.
+
+import './css/global.css';
+import './css/resets.css';
+import './css/variables.css';
+
 // Import custom dependencies.
 
-import './index.css';
 import App from './App';
 import rootReducer from "./reducers";
 
