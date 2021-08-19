@@ -1,3 +1,6 @@
+// The transparent navbar component.
+
+
 // Import dependencies.
 
 import React from "react";
@@ -14,10 +17,10 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-    <div>
+    <React.Fragment>
       <Icon/>
       <Button/>
-    </div>
+    </React.Fragment>
   </nav>
  );
 }

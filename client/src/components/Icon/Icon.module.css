@@ -1,6 +1,13 @@
 /* Styles for the app icon. */
 
 .icon {
-  height: 9rem;
-  margin-top: -2rem;
+  height: 8rem;
+}
+
+.link {
+  transition: transform 0.3s;
+}
+
+.link:hover {
+  transform: scale(1.04);
 }

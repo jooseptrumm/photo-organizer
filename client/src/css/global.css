@@ -1,3 +1,7 @@
+/* Globally applied CSS styles. */
+
+/* The default background of the whole app. */
+
 body {
   background-image: linear-gradient(white, rgba(112, 176, 115, 0.8)), url("../img/93.jpg");
   background-repeat: no-repeat;
